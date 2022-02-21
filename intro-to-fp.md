@@ -38,6 +38,8 @@ irb(main):021:0> arr
 
 ## Immutable Variables
 
+Every time a value is updated, a new value is returned.
+
 ```elixir
 nums = [3, 40, 22]
 List.delete(nums, 3) 
@@ -52,10 +54,29 @@ List.delete(nums, 3)
 
 ## Persistent Data Structures
 
+> a persistent data structure is a data structure that always preserves the previous version of itself when it is modified.
+
+---
+
+## Persistent Data Structures Examples
+
+```elixir
+iex(12)> xs = [0, 1, 2]
+iex(13)> ys = [3, 4, 5]
+iex(14)> xs ++ ys
+```
+
+![linked lists concatenation width:150](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Purely_functional_list_after.svg/516px-Purely_functional_list_after.svg.png)
+
 ---
 
 ## Why Pure Functions?
 
+> functional programming is about coming up with the easiest way to write CORRECT programs.
+
+---
+
+## Map and Reduce
 
 ---
 
