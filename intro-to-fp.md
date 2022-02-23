@@ -130,13 +130,6 @@ iex(14)> xs ++ ys
 
 ---
 
-## FP Lessons
-
-1. Push side effects to the edge of your system
-1. If your language supports it, use immutable variables
-
----
-
 ## Resources
 
 - https://elixir-lang.org/
