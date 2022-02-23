@@ -77,6 +77,8 @@ def track_event(events, event_type, time):
 
 Obviously, we can program with pure functions like `Array#uniq` in Ruby, does this make it a FP language?
 
+> A functional language actively helps you eliminate side-effects wherever possible, and tightly control them wherever it’s not.
+
 ---
 
 ## Immutable Variables
