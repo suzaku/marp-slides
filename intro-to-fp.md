@@ -112,9 +112,8 @@ No, thanks to **Persistent Data Structures**.
 ## Persistent Data Structures Examples
 
 ```elixir
-iex(12)> xs = [0, 1, 2]
-iex(13)> ys = [3, 4, 5]
-iex(14)> xs ++ ys
+iex(12)> x = [3, 2, 1]
+iex(13)> y = List.insert_at(x, 0, 4)
 ```
 
 ![linked lists concatenation](https://raw.githubusercontent.com/suzaku/marp-slides/main/concat-linked-list.svg?token=GHSAT0AAAAAABRNZVT5JO3Y2NVGXMCPI7U6YQVU26A)
